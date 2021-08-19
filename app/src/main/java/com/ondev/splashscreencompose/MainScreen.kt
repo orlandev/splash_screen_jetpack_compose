@@ -2,6 +2,7 @@ package com.ondev.splashscreencompose
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -13,9 +14,9 @@ import androidx.navigation.NavController
 fun MainScreen(navController: NavController) {
     Box(
         contentAlignment = Alignment.Center,
-        modifier = Modifier.fillMaxHeight()
+        modifier = Modifier.fillMaxSize()
     )
     {
-        Text(text = "TEST COMPOSE", textAlign = TextAlign.Center)
+        Text(text = "I LOVE COMPOSE", textAlign = TextAlign.Center)
     }
 }
